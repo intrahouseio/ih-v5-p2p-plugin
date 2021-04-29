@@ -1,12 +1,14 @@
 const Peer = require('simple-peer')
 const wrtc = require('wrtc')
 
+const dev = process.env.DEV === undefined ? false : true;
+
 const http2 = require('http2');
 
 const udp = require('dgram')
 const notifyClient = udp.createSocket('udp4')
 
-const SERVER_HOST = 'localhost';
+const SERVER_HOST = dev ? 'localhost' : 'p2p.ih-systems.com';
 const SERVER_PORT = 49000;
 
 const NOT_REGISTRED = 0;
