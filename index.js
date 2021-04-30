@@ -8,7 +8,7 @@ const http2 = require('http2');
 const udp = require('dgram')
 const notifyClient = udp.createSocket('udp4')
 
-const SERVER_HOST = dev ? 'localhost' : 'p2p.ih-systems.com';
+const SERVER_HOST = 'localhost' ||  'p2p.ih-systems.com';
 const SERVER_PORT = 49000;
 
 const NOT_REGISTRED = 0;
@@ -59,7 +59,7 @@ function messageNotify(data, info) {
   }
 
   if (msg[0] === STATUS) {
-    console.log('status: ok')
+    // console.log('status: ok')
   }
 
   if (msg[0] === SESSION) {
