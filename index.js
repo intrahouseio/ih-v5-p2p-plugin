@@ -15,6 +15,7 @@ function main(options) {
 
   p2p.on('debug', (mes) => console.log(mes))
 
+  notify.on('state', (info) => console.log(info))
   notify.on('debug', (mes) => console.log(mes))
   notify.on('session', (sessionid) => p2p.emit('start', sessionid))
 }
