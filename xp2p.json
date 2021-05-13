@@ -1,0 +1,10 @@
+{
+  "id": "xp2p",
+  "description": "XP2P",
+  "module": "index.js",
+  "ext": [
+    { "prop": "key", "note": "Ключ P2P", "vtype": "S" },
+    { "prop": "status", "note": "Статус", "vtype": "S" }
+  ]
+}
+
