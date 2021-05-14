@@ -30,7 +30,7 @@ function main(options) {
   const loglevel = opt.loglevel || 0;
 
   logger.start(logfile, loglevel);
-  logger.log('Plugin xp2p has started  with args: ' + process.argv[2]);
+  logger.log('Plugin p2p has started  with args: ' + process.argv[2]);
 
   setInterval(sendProcessInfo, 10000);
 

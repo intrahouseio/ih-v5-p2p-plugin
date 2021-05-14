@@ -1,6 +1,6 @@
 {
-    "id":"xp2p",
-    "description":"XP2P plugin",
+    "id":"p2p",
+    "description":"P2P plugin",
     "activation": false,
     "resources": false,
     "cross": true,
