@@ -10,7 +10,7 @@ const params = {
 
 
 const forked = fork('index.js', [JSON.stringify(params), 'debug'], {
-  execArgv: '--expose-gc',
+  execArgv: ['--expose-gc'],
 });
 
 forked.on('message', (msg) => {
