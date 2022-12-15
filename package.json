@@ -13,9 +13,9 @@
     "@rh389/shortid": "^2.2.8",
     "events": "^3.3.0",
     "form-data": "^4.0.0",
-    "node-fetch": "^2.6.1",
-    "simple-peer": "^9.11.0",
+    "node-fetch": "^3.3.0",
+    "simple-peer": "^9.11.1",
     "wrtc": "^0.4.7",
-    "ws": "^7.4.5"
+    "ws": "^8.11.0"
   }
 }
