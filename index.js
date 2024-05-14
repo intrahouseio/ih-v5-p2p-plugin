@@ -40,7 +40,7 @@ function main(options) {
   p2p.on('debug', mes => logger.log(mes))
 
   notify.on('state', data => process.send({ type: 'procinfo', data }))
-  notify.on('debug', mes => logger.log(mes))
+  // notify.on('debug', mes => logger.log(mes))
   notify.on('session', sessionid => p2p.emit('start', sessionid))
 
   sendProcessInfo();
