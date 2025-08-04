@@ -4,5 +4,5 @@
     "activation": false,
     "resources": false,
     "cross": true,
-    "version":"5.4.0"
+    "version":"5.5.0"
 }
